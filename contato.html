@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/logo.png" type="image/ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <title>Contato</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="menu_nav">
+            <img src="image/logo.png" alt="Logo do Site">
+            <ul class="menu-top">
+                <li>
+                    <a href="index.html"> Home </a>
+                </li>
+                <li><a href="catalogo.html"> Catálogo</a></li>
+                <li><a id="underline-contato" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="banner-contato">
+            <div class="banner-titulo-contato">
+
+                <article class="titulo-contato">
+                    <img src="image/contatotitle.png" alt="titulo-contato">
+                </article>
+            </div>
+        </section>
+
+
+        <section class="contato">
+            <div class="container-contato">
+                <h1>ENTRE EM CONTATO</h1>
+                <article class="texto-contato">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem nam, commodi error laboriosam,
+                        voluptates
+                        velit molestias officiis reprehenderit, animi aspernatur ipsam in quam tenetur nostrum minus
+                        quasi
+                        .</p>
+                </article>
+            </div>
+
+        </section>
+
+
+        <section class="formulario">
+            <form>
+                <input type="text" placeholder="NOME" name="nome" /> <br>
+                <input type="email" placeholder="EMAIL" name="email" /> <br>
+                <input type="tel" placeholder="TELEFONE" name="celular" /> <br>.
+            </form>
+            <form>
+                <textarea name="mensagem" placeholder="Como podemos ajudá-lo?" rows="7" cols="40"></textarea>
+            </form>
+            <button class="botao-formulario" type="submit">ENVIAR</button>
+        </section>
+
+    </main>
+
+
+
+    <style>
+        .formulario {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .formulario form {
+            width: 45%;
+        }
+
+        .formulario input,
+        .formulario textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1.5px solid #b6b5b5;
+            border-radius: 10px;
+            background-color: #f8faf9;
+        }
+
+        .formulario input::placeholder,
+        .formulario textarea::placeholder {
+            padding-left: 20px;
+            color: #ced0cf;
+        }
+
+        .botao-formulario {
+            background-color: #fd5c54;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 1em;
+            width: 100%;
+            margin-top: 10px;
+            border: none;
+            border-radius: 15px;
+        }
+
+
+        @media (max-width: 768px) {
+            .formulario form {
+                width: 100%;
+            }
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

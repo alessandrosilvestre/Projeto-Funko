@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    
+}
+
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-principal {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.banner-principal img {
+    width: 100%; 
+}
+
+.banner {
+    display: flex; 
+    width: 100%;   
+}
+
+.titulo-banner {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    max-width: 50%;
+    padding-left: 20%;
+    padding-top: 30%;
+   
+}
+
+
+.titulo-banner img {
+    width: 100%;
+    max-width: 40%;
+}
+
+
+
+
+
+
+/* Main do Index.html / Quem Somos */
+
+
+
+
+.banner-quem-somos img {
+    width: 100%;
+    
+}
+
+.quem-somos {
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    background-image: url(../image/thor_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    color: #fff;
+}
+
+
+.contatiner-quemsomos {
+    display: flex;
+    width: 100%;
+    gap: 70px;
+    max-width: 1200px;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 80px;
+    margin-inline: 50px;    
+}
+
+.contatiner-quemsomos {
+    font-size: 2em;
+}
+
+.texto-quemsomos {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.quem-somos p {
+    width: 600px;
+}
+
+/*underline*/
+.quem-somos h1 {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.quem-somos h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 45%;
+    height: 6px;
+    background-color: #ffffff
+}
+/*underline*/
+
+
+/* Main do Index.html / Quem Somos */
+
+footer img {
+    position: absolute;
+    display: flex;
+    width: 700px;
+    height: 600px;
+}
+
+/*footer*/
+
+
+.catalogo-home {
+    display: flex; 
+    margin: 0;
+    color: #505050;
+    justify-content: center;
+    font-size: 1.5em;
+   
+    
+          
+}
+
+.container-catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    color: #505050;
+    margin-block: 80px;    
+    max-width: 1200px;    
+    width: 100%;    
+    flex-wrap: wrap;
+
+}
+
+.catalogo-conteudo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+} 
+
+.catalogo-conteudo p {
+    margin-block: 50px;
+    max-width: 600px;
+    width: 100%;
+    text-align: justify;
+}
+
+.imagem-catalogo {
+    width: 500px;
+}
+
+
+.ver_catalogo {
+    background-image: linear-gradient(to bottom, #fe7467, #fc3836 );;
+    padding: 10px;
+    color:white;
+    border: 0px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;   
+    
+}
+
+
+
+
+
+/*footer*/
+
+/* Configurações Main do Catalogo  e Section */
+
+.banner-catalogo {
+    display: flex;
+    align-items: center;
+}
+
+.banner-catalogo img {
+    width: 100%; 
+}
+
+.titulo-catalogo {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    max-width: 30%;
+    padding-left: 20%;
+    padding-top: 30%;
+   
+}
+/*Container para os produtos do catalogo*/
+
+.produtos-catalogo {
+    align-items: center;
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;    
+ 
+}
+
+.produtos-catalogo h1{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 2.5em;
+    
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.produto p {
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.produto {
+    width: 300px; 
+}
+
+img {
+    width: 100%;
+}
+
+.produto h3 {
+    font-style: italic;
+}
+
+.produto button {
+    background-color: #fc3836;
+    margin-bottom: 10%;
+    padding: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    font-weight: bold;    
+}
+
+/*Contato*/
+
+.banner-contato {
+    background-image: url(../image/contatoheader.jpg);
+    background-position: center top;
+    background-repeat: no-repeat; 
+    margin: 0; 
+}
+
+.titulo-contato {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    max-width: 20%;
+    
+}
+
+.banner-titulo-contato {
+    width: 400px;
+}
+
+.titulo-contato img {
+    width: 100%;
+    padding-top: 50%;
+    max-width: 400px;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    color: #505050;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+.container-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.texto-contato p {
+    text-align: center;
+}
+
+
+/*Contato*/
+
+
+
+
+
+
+
+
